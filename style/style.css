@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poor+Story&family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 16rem;
+    box-sizing: border-box;
+    background: rgb(250, 240, 154);
+    color: #8c154d;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 62%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.cabecalho__menu__links {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
+
+}
+
+
+.destaque-h1 {
+    color: rgb(255, 255, 255);
+}
+
+.principal {
+    padding: 1% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.desenho {
+    max-width: 37.5rem;
+    max-height: 43.75rem;
+    width: auto;
+    height: auto;
+}
+
+
+.apresentacao {
+    width: 38.438rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    border: 0.25rem solid rgb(85, 23, 99);
+    border-width: 0.063rem;
+    border-spacing: 10%;
+    padding: 1.25rem;
+    border-radius: 10%;
+    gap: 82px;
+}
+
+
+
+.apresentacao__titulo {
+    font-size: 1.5rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.apresentacao__texto{
+    font-size: 1.25rem;
+    font-family: 'Poor Story', system-ui;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.apresentacao__links__titulo {
+    font-family: 'Poor Story', system-ui;
+}
+
+
+.apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 0.938rem;
+    color: rgb(240, 230, 230);
+    width: 17.5rem;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.625rem;
+    font-family: 'Poor Story', system-ui;
+    border-color: black;
+    text-decoration: none;
+    border: 0.625rem double rgb(224, 199, 230);
+    background-color: rgb(247, 130, 241); 
+    transition: 1s; 
+    border-radius: 0.5rem;
+    
+}
+
+.apresentacao__links__link:hover {
+    display: flex;
+    justify-content: center;
+    gap: 0.938rem;
+    color: rgb(240, 230, 230);
+    width: 17.5rem;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.625rem;
+    font-family: 'Poor Story', system-ui;
+    border-color: black;
+    text-decoration: none;
+    border: 0.625rem double rgb(228, 187, 220);
+    background-color: rgb(195, 131, 207);
+    transition: 1s; 
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+
+
+.rodape  {
+    background-color: rgb(117, 90, 186);
+    color: rgb(240, 230, 230);
+    text-align: center;
+    padding: 0.625rem;
+    font-family: 'Poor Story', system-ui;
+    font-size: 1.25rem;
+    
+}
+
+@media (max-width: 1200px) {
+
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu__links{
+        flex: flex;
+        justify-content: center;
+        padding: 10% 0% 0% 0%;
+        
+    }
+
+    .principal {
+        flex-direction: column-reverse;
+    }
+
+    .desenho {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+
+    .apresentacao__titulo {
+        display: flex;
+        align-items: center;
+        width: 40%;
+        padding: 10% 0% 0% 35%;
+    }
+
+    .apresentacao__texto {
+        display: flex;
+        align-items: center;
+        width: 40%;
+        padding: 0% 0% 0% 32%;
+    }
+
+    .apresentacao__links__link {
+        width: 30%;
+    }
+
+
+}
